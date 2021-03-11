@@ -33,7 +33,7 @@ body{
 }
 
 
-.imgitem{
+.imgitem {
     grid-column: 40/40;
     margin-top: 100px;
     margin-left: -100px;
