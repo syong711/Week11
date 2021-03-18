@@ -7,62 +7,51 @@ body{
     background-color: #6E8783;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    top: 15px;
-    left: 10px;
-    right: 10px;
 }
 
 
 .welcome li {
     list-style-type: none;
     display: inline;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 
 #aboutme {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 100%;
-}
-
-
-#imgitem1 {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
 }
 
 
 .imgitem {
-    grid-column: 40/40;
-    margin-top: 100px;
-    margin-left: -100px;
+    margin-top: 6em;
+    margin-left: -5em;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
 }
 
 
 #wholepara {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
+
 
 .paraone {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-right: 200px;
+    margin-top: 4em;
+    margin-right: 15em;
 }
+
 
 .paratwo {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-right: 200px;
+    margin-top: 4em;
+    margin-right: 15em;
 }
 
+
 .parathree {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-right: 200px;
+    margin-top: 4em;
+    margin-right: 15em;
 }
 
 
@@ -70,9 +59,6 @@ body{
     background-color: #6E8783;
     text-align: center;
     font-weight: bold;
-    top: 15px;
-    left: 10px;
-    right: 10px;
-    margin-top: 120px;
+    margin-top: 8em;
 }
 
