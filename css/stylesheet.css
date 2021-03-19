@@ -62,3 +62,54 @@ body{
     margin-top: 8em;
 }
 
+/* ------------------------------------------ */
+
+#wholenav{
+    list-style-type: none;
+}
+
+/* .courseLine{
+    border-bottom: solid black 3px;
+    
+}
+.courseName{
+    padding: 1em;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 15px;
+}
+
+header{
+    text-align: center;
+    background-color: #6E8783;
+}
+
+
+
+@media screen and (min-width: 600px)
+{
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation li{
+        padding: 1em;
+    }
+    
+    .courseName{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .coursedescription{
+        grid-column: 2 / 3;
+        grid-row: 1 / 1;
+    }
+
+    
+} */

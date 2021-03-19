@@ -7,15 +7,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="../css/stylesheet.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
 </head>
 
 
 
 <body>
-    <header class="welcome">
-        <h1>Welcome to my Website</h1>
+    <header>
+        <h1>My Courses</h1>
         <nav>
-            <ul>
+            <ul class="navigation">
                 <li> <a href="../index.html" title="About Me"> About Me </a></li>
                 <li> <a href="school.html" title="School page">My School</a> </li>
                 <li> <a href="courses.html" title="Course page">My Courses</a> </li>
@@ -24,19 +25,27 @@
     </header>
 
 
-    <main>
-        <h2>My Courses</h2>
-        <section>
-            <h3>List of Courses</h3>
-            <ul>
-                <li><a href="http://www.bcit.ca/outlines/20211085986/">ACIT 1620 Fundamental Web Technologies</a>
-                </li>
-                <li>ACIT 1515 Scripting for IT</li>
-                <li>MATH 1310 Technical Math for IT</li>
-            </ul>
-        </section>
+    <nav>
+        <ul id="wholenav">
+            <li class="courseName courseLine">
+                <a href="http://www.bcit.ca/outlines/20211085986/">ACIT 1620 Fundamental Web Technologies</a>
+                <p class="year">Winter 2021</p>
+                <p class="coursedescription">This course introduces fundamental principles and techniques for designing and developing effective Web sites.</p>
+            </li>
+            <li class="courseName courseLine">
+                <a href="https://www.bcit.ca/outlines/20211085985/">ACIT 1515 Scripting for IT</a>
+                <p class="year">Winter 2021</p>
+                <p class="coursedescription">This course introduces the fundamental concepts of programming for IT professionals, with a focus on scripting languages that are commonly found in the workplace.</p>
+            <li class="courseName">
+                <a href="https://www.bcit.ca/outlines/20211085994/">MATH 1310 Technical Math for IT</a>
+                <p class="year">Winter 2021</p>
+                <p class="coursedescription">This course introduces students to the core mathematical constructs that underlie information technology.</p>
+            </li>        
+        </ul>
+    </nav>
 
-    </main>
+
+
 
     <footer class="footer">
         Copyright data
