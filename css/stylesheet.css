@@ -64,19 +64,6 @@ body{
 
 /* ------------------------------------------ */
 
-#wholenav{
-    list-style-type: none;
-}
-
-/* .courseLine{
-    border-bottom: solid black 3px;
-    
-}
-.courseName{
-    padding: 1em;
-}
-
-
 .navigation{
     display: flex;
     flex-direction: column;
@@ -89,6 +76,20 @@ header{
     text-align: center;
     background-color: #6E8783;
 }
+
+/* #wholenav{
+    list-style-type: none;
+}
+
+.courseLine{
+    border-bottom: solid black 3px;
+    
+}
+.courseName{
+    padding: 1em;
+}
+
+
 
 
 
