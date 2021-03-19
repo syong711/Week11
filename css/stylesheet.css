@@ -77,7 +77,7 @@ header{
     background-color: #6E8783;
 }
 
-/* #wholenav{
+#wholenav{
     list-style-type: none;
 }
 
@@ -93,7 +93,7 @@ header{
 
 
 
-@media screen and (min-width: 600px)
+/* @media screen and (min-width: 600px)
 {
     .navigation{
         flex-direction: row;
