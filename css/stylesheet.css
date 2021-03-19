@@ -93,7 +93,7 @@ header{
 
 
 
-/* @media screen and (min-width: 600px)
+@media screen and (min-width: 600px)
 {
     .navigation{
         flex-direction: row;
@@ -102,7 +102,7 @@ header{
         padding: 1em;
     }
     
-    .courseName{
+    /* .courseName{
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
@@ -110,7 +110,6 @@ header{
     .coursedescription{
         grid-column: 2 / 3;
         grid-row: 1 / 1;
-    }
-
+    } */
     
-} */
+}
