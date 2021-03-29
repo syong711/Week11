@@ -5,3 +5,9 @@ let courseList=
 }
 
 
+let user;
+do{
+    user = prompt("Enter a four-digit code");
+} while(isNaN (user) === true || (user.length !== 4));
+
+
